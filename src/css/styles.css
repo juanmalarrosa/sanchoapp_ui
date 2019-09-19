@@ -427,7 +427,7 @@ img {
   width: 18px;
   height: 18px;
   background-size: cover;
-  background-image: url(../../assets/images/image-image.png);
+  background-image: url(../assets/images/image-image.png);
   background-position: 0 -36px;
 }
 
@@ -516,7 +516,7 @@ img {
   display: block;
   margin: 0 auto;
   width: 100px;
-  background-image: url(../../assets/images/logo@2.png);
+  background-image: url(../assets/images/logo@2.png);
   background-size: cover;
 }
 #header .top .logo:before {
@@ -557,7 +557,7 @@ img {
   top: 0;
   right: 0;
   background-size: cover;
-  background-image: url(../../assets/images/level-image.png);
+  background-image: url(../assets/images/level-image.png);
 }
 #header .top .level-btn .level {
   position: absolute;
@@ -569,7 +569,7 @@ img {
   transform: translate3d(-50%, -50%, 0);
 }
 #header .top .level-btn .level-1 {
-  background-image: url(../../assets/images/a1-sm.png);
+  background-image: url(../assets/images/a1-sm.png);
 }
 
 /*NAV*/
@@ -632,25 +632,25 @@ img {
   background-repeat: no-repeat;
 }
 #nav .item .icon.icon-favorites {
-  background-image: url(../../assets/images/favorites.png);
+  background-image: url(../assets/images/favorites.png);
 }
 #nav .item .icon.icon-scores {
-  background-image: url(../../assets/images/scores.png);
+  background-image: url(../assets/images/scores.png);
 }
 #nav .item .icon.icon-options {
-  background-image: url(../../assets/images/options.png);
+  background-image: url(../assets/images/options.png);
 }
 #nav .item .icon.icon-help {
-  background-image: url(../../assets/images/help.png);
+  background-image: url(../assets/images/help.png);
 }
 #nav .item .icon.icon-image {
-  background-image: url(../../assets/images/image-image.png);
+  background-image: url(../assets/images/image-image.png);
 }
 #nav .item .icon.icon-audio {
-  background-image: url(../../assets/images/audio-image.png);
+  background-image: url(../assets/images/audio-image.png);
 }
 #nav .item .icon.icon-definition {
-  background-image: url(../../assets/images/definition-image.png);
+  background-image: url(../assets/images/definition-image.png);
 }
 #nav .item.active .icon {
   background-position: 0 -22px;
@@ -722,16 +722,16 @@ img {
   background-color: transparent;
 }
 .levels-list .item .btn-holder .image.level-a1 {
-  background-image: url(../../assets/images/a1-c.png);
+  background-image: url(../assets/images/a1-c.png);
 }
 .levels-list .item .btn-holder .image.level-a2 {
-  background-image: url(../../assets/images/a2-c.png);
+  background-image: url(../assets/images/a2-c.png);
 }
 .levels-list .item .btn-holder .image.level-b1 {
-  background-image: url(../../assets/images/b1-c.png);
+  background-image: url(../assets/images/b1-c.png);
 }
 .levels-list .item .btn-holder .image.level-b2 {
-  background-image: url(../../assets/images/b2-c.png);
+  background-image: url(../assets/images/b2-c.png);
 }
 
 /* MENU LIST */
@@ -758,6 +758,7 @@ img {
   vertical-align: top;
   width: 33.3333%;
   padding: 0 10px;
+  text-align: center;
   box-sizing: border-box;
 }
 .topics-list .item:nth-child(n+4) {
@@ -822,13 +823,13 @@ img {
   background-position: 0 -41px;
 }
 .az-list .item .actions .btn .icon.icon-audio {
-  background-image: url(../../assets/images/audio-image.png);
+  background-image: url(../assets/images/audio-image.png);
 }
 .az-list .item .actions .btn .icon.icon-image {
-  background-image: url(../../assets/images/image-image.png);
+  background-image: url(../assets/images/image-image.png);
 }
 .az-list .item .actions .btn .icon.icon-definition {
-  background-image: url(../../assets/images/definition-image.png);
+  background-image: url(../assets/images/definition-image.png);
 }
 .az-list .item .actions .btn .text {
   display: inline-block;
@@ -928,10 +929,10 @@ img {
   margin-left: 5px;
 }
 .generic-list .item .right-side .btn.audio-btn {
-  background-image: url(../../assets/images/audio.png);
+  background-image: url(../assets/images/audio.png);
 }
 .generic-list .item .right-side .btn.delete-btn {
-  background-image: url(../../assets/images/delete.png);
+  background-image: url(../assets/images/delete.png);
 }
 .generic-list .item .right-side .select-container {
   display: inline-block;
@@ -977,7 +978,7 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../../assets/images/first.png);
+  background-image: url(../assets/images/first.png);
 }
 
 /* SEARCH HOLDER */
@@ -1066,7 +1067,7 @@ img {
   opacity: 1;
 }
 .score-holder .score-image.bg-success .image {
-  background-image: url(../../assets/images/success-score.png);
+  background-image: url(../assets/images/success-score.png);
 }
 .score-holder .score-image .image {
   opacity: 0;
@@ -1159,7 +1160,7 @@ img {
   height: 60px;
   border-radius: 50%;
   background-color: #fff;
-  background-image: url(../../assets/images/play.png);
+  background-image: url(../assets/images/play.png);
   background-repeat: no-repeat;
   background-position: 60% 50%;
   background-size: 50%;
@@ -1174,7 +1175,7 @@ img {
   height: 60px;
   border-radius: 50%;
   background-color: #fff;
-  background-image: url(../../assets/images/record.png);
+  background-image: url(../assets/images/record.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70%;

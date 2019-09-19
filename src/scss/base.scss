@@ -395,7 +395,7 @@ img{
         width: 18px;
         height: 18px;
         background-size: cover;
-        background-image: url(../../assets/images/image-image.png);
+        background-image: url(../assets/images/image-image.png);
         background-position: 0 -36px;
     }
 }
@@ -497,7 +497,7 @@ img{
             display: block;
             margin: 0 auto;
             width: 100px;
-            background-image: url(../../assets/images/logo@2.png);
+            background-image: url(../assets/images/logo@2.png);
             background-size:cover;
 
             &:before{
@@ -546,7 +546,7 @@ img{
             top: 0;
             right: 0;
             background-size: cover;
-            background-image: url(../../assets/images/level-image.png);
+            background-image: url(../assets/images/level-image.png);
 
             .level{
                 position: absolute;
@@ -560,7 +560,7 @@ img{
 
             }
             .level-1{
-                background-image: url(../../assets/images/a1-sm.png);
+                background-image: url(../assets/images/a1-sm.png);
             }
 
         }
@@ -639,27 +639,27 @@ img{
             background-repeat: no-repeat;
 
             &.icon-favorites{
-                background-image: url(../../assets/images/favorites.png);
+                background-image: url(../assets/images/favorites.png);
             }
             &.icon-scores{
-                background-image: url(../../assets/images/scores.png);
+                background-image: url(../assets/images/scores.png);
             }
             &.icon-options{
-                background-image: url(../../assets/images/options.png);
+                background-image: url(../assets/images/options.png);
             }
             &.icon-help{
-                background-image: url(../../assets/images/help.png);
+                background-image: url(../assets/images/help.png);
             }
             &.icon-image{
-                background-image: url(../../assets/images/image-image.png);
+                background-image: url(../assets/images/image-image.png);
 
             }
             &.icon-audio{
-                background-image: url(../../assets/images/audio-image.png);
+                background-image: url(../assets/images/audio-image.png);
 
             }
             &.icon-definition{
-                background-image: url(../../assets/images/definition-image.png);
+                background-image: url(../assets/images/definition-image.png);
 
             }
 
@@ -756,16 +756,16 @@ img{
                 background-color: transparent;
 
                 &.level-a1{
-                    background-image: url(../../assets/images/a1-c.png);
+                    background-image: url(../assets/images/a1-c.png);
                 }
                 &.level-a2{
-                    background-image: url(../../assets/images/a2-c.png);
+                    background-image: url(../assets/images/a2-c.png);
                 }
                 &.level-b1{
-                    background-image: url(../../assets/images/b1-c.png);
+                    background-image: url(../assets/images/b1-c.png);
                 }
                 &.level-b2{
-                    background-image: url(../../assets/images/b2-c.png);
+                    background-image: url(../assets/images/b2-c.png);
                 }
             }
         }
@@ -808,6 +808,7 @@ img{
         vertical-align: top;
         width: 33.3333%;
         padding: 0 10px;
+        text-align: center;
 
         box-sizing:border-box;
 
@@ -882,13 +883,13 @@ img{
                     background-position: 0 -41px;
 
                     &.icon-audio{
-                        background-image: url(../../assets/images/audio-image.png);
+                        background-image: url(../assets/images/audio-image.png);
                     }
                     &.icon-image{
-                        background-image: url(../../assets/images/image-image.png);
+                        background-image: url(../assets/images/image-image.png);
                     }
                     &.icon-definition{
-                        background-image: url(../../assets/images/definition-image.png);
+                        background-image: url(../assets/images/definition-image.png);
                     }
                 }
                 .text{
@@ -1025,10 +1026,10 @@ img{
                 }
 
                 &.audio-btn{
-                    background-image: url(../../assets/images/audio.png)
+                    background-image: url(../assets/images/audio.png)
                 }
                 &.delete-btn{
-                    background-image: url(../../assets/images/delete.png)
+                    background-image: url(../assets/images/delete.png)
                 }
             }
 
@@ -1089,7 +1090,7 @@ img{
                     background-size: contain;
                     background-repeat: no-repeat;
                     background-position: center;
-                    background-image: url(../../assets/images/first.png);
+                    background-image: url(../assets/images/first.png);
 
                 }
             }
@@ -1211,7 +1212,7 @@ img{
         &.bg-success{
 
             .image{
-                background-image: url(../../assets/images/success-score.png);
+                background-image: url(../assets/images/success-score.png);
             }
 
         }
@@ -1341,7 +1342,7 @@ img{
             height: 60px;
             border-radius: 50%;
             background-color: $white;
-            background-image: url(../../assets/images/play.png);
+            background-image: url(../assets/images/play.png);
             background-repeat: no-repeat;
             background-position: 60% 50%;
             background-size: 50%;
@@ -1360,7 +1361,7 @@ img{
             height: 60px;
             border-radius: 50%;
             background-color: $white;
-            background-image: url(../../assets/images/record.png);
+            background-image: url(../assets/images/record.png);
             background-repeat: no-repeat;
             background-position: center;
             background-size: 70%;
