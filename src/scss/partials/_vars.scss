@@ -1,0 +1,84 @@
+// bower:scss
+// endbower
+
+/* COLOR */
+
+$color1: #3ebeb6; // Turquize
+$color2: #e5dabe; // Yellow
+$color3: #f48b6e; // Orange
+
+$color-image: #4aaacc;
+$color-audio: #e0b569;
+$color-definition: #afd371;
+
+$white: #fff;
+$black: #000;
+
+$grey1: #5d5d5d;
+$grey2: #8c8c8c;
+$grey3: #9e9e9e;
+$lgrey1: #a5a5a5;
+$lgrey2: #cecece;
+$lgrey3: #dbdbdb;
+$lgrey4: #f1f1f1;
+
+$success: #64b26f;  
+$error: #ce4d4d;  
+
+// States
+
+/* FONT */
+
+$regular:400;
+$bold:700;
+
+$fs1: 1.1em;
+$fs2: 1.3em;
+$fs3: 1.5em;
+$fs4: 1.7em;
+$fs5: 2.1em;
+$fs6: 2.3em;
+$fs7: 2.6em;
+$fs8: 3.2em;
+$fs9: 6.5em;
+
+
+/* EASINGS */
+
+$easeOutCubic: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+$easeInCubic: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+$easeInOutCirc: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+
+
+/* TRANSITIONS */
+
+.non-structure-transition{
+    transition:
+        color 240ms ease-out,
+        background 240ms ease-out,
+        border 240ms ease-out,
+        opacity 240ms ease-out,
+        box-shadow 240ms ease-out;
+}
+
+
+/* STRUCTURE */
+
+$space: 25px;
+$clickable: 36px;
+$header-height: 60px;
+$nav-height: 70px;
+$loader-width: 50px;
+
+
+
+
+
+
+
+
+
+
+
+
+
