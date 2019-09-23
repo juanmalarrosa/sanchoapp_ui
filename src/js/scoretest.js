@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    numberAnimationInit($('.score-holder').find('.animateNumber'));
+    animateScore();
 
 
 
@@ -9,24 +9,23 @@ $(document).ready(function () {
 
 /* ***** VARIABLES ***** */
 
+var scoreTimer = null;
 /* ***** FUNCIONES ***** */
 
+function animateScore() {
 
+    numberAnimationInit($('.score-holder').find('.animateNumber'));
+
+    scoreTimer = setTimeout(function () {
+        $('.score-image').addClass('active');
+    }, 400);
+}
 
 function numberAnimationInit($selector) {
-    $selector.each(function () {
-        $(this).html('0');
-    });
-    $selector.waypoint({
-        offset: 'bottom-in-view',
-        handler: function (direction) {
-            if (direction === 'down' && !$(this.element).hasClass('animated')) {
 
-                $(this.element).addClass('animated');
-                animateNumber($(this.element));
-            }
-        }
-    });
+    $selector.addClass('animated');
+    animateNumber($selector);
+
 } // numberAnimationInit
 
 function animateNumber($el) {
